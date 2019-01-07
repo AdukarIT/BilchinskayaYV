@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Форма для заказа пиццы</title>
+</head>
+<body>
+  <form name="pizza" action="https//pizza2146516.com" method="post">
+    <h2>Выберите пиццу:</h2>
+     <label>
+      <select name="your choice" size="1">
+       <option value="first pizza">Барбекю</option>
+       <option value="second pizza">Гавайская</option>
+       <option value="third pizza" selected="selected">Маргарита</option>
+       <option value="fourth pizza">Карбонара</option>
+       <option value="fifth pizza">Пепперони</option>
+      </select>
+     </label>
+   <h2>Выберите основу для пиццы:</h2>
+     <label><input type="radio" name="pizzabase" value="first base">Тонкий край</label>
+      <label><input type="radio" name="pizzabase" value="second base">Толстый край</label><br>
+     <label><input type="checkbox" name="service" value="cut">Разрезать пиццу</label>
+  <h2>Номер телефона</h2>
+  <p>
+   <label><input type="text" name="number"></label>
+  </p>
+  <h2>Адрес доставки</h2>
+  <p>
+   <label><input type="text" name="adress"></label>
+  </p>
+   <h2>Дополнительная информация</h2>
+  <p>
+  <label><textarea cols="50" rows="10" name="comment" placeholder="Время доставки, код домофона и т.д."></textarea></label>
+   </p>
+   <input name="submit" type="submit" value="Сделать заказ">
+ </form>
+ </body>
+</html>

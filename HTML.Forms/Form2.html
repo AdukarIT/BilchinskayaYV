@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Форма отзыва на товар:</title>
+</head>
+<body>
+  <header>
+   <h1>Ваш отзыв:</h1>
+  </header>
+ <form name="pizza" action="pizza2146516.com" method="post">
+   <h2>Введите ФИО:</h2>
+    <label>
+     <input type="text" name="fio">
+    </label>
+   <h2>Введите ваш email:</h2>
+    <label>
+     <input type="text" name="mail">
+    </label>
+  <h2>Оценка:</h2>
+    <input type="radio" name="rating" value="1" checked>1
+    <input type="radio" name="rating" value="2" checked>2
+    <input type="radio" name="rating" value="3" checked>3
+    <input type="radio" name="rating" value="4" checked>4
+    <input type="radio" name="rating" value="5" checked>5<br>
+    <input type="submit" name="submit" value="Оценить">
+  <h2>Отзыв:</h2>
+   <p>
+    <label>
+     <textarea name="отзыв" cols="50" rows="10"></textarea>
+    </label>
+   </p>
+    <input type="submit" name="submit" value="Отправить">
+    <input type="reset" name="rest" value="Очистить">
+  </form>
+</body>
+</html>
