@@ -44,6 +44,5 @@
 
 [GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.Instagram)
 
-##CSS. Позиционирование
-
+## CSS. Позиционирование
 [Индикатор загрузки](https://jsbin.com/gekuhib/edit?html,css,output)
