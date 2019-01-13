@@ -1,0 +1,119 @@
+.center {
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	margin: 10px 100px;
+}
+
+.butt1 {
+	color: #DB7093 ;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.butt {
+	display: block;
+	border: 3px solid #C71585 ;
+	font-size: 16px;
+	text-align: center;
+	border-radius: 15px;
+	text-decoration: none;
+	width: 130px;
+	height: 40px;
+	line-height: 20px;
+	position: relative;
+	overflow: hidden;
+	letter-spacing: 2px;
+
+}
+
+.butt::before {
+	position: absolute;
+	content:  '';
+	width: 100%;
+	height: 100%;
+	background: #FF69B4;
+	left: -100%;
+	opacity: .3;
+	transition: .1s;
+}
+
+
+.butt:hover::before,
+.butt:hover::after {
+	left: 0;
+}
+
+/*----------------------------*/
+
+.snap {
+	position: absolute;
+    display: inline-block;
+    width: 130px;
+	height: 40px;
+    margin: 80px 100px;
+    border: 2px solid #8B0000;
+    background: #FFA07A;
+    cursor: pointer;   
+}
+
+.snap [type="checkbox"] {
+    display: none; 
+}
+
+.snap span {
+    display: block;
+    padding: 9px;
+    border: 2px solid #8B0000;
+}
+
+.snap :checked~span {
+    color: #FFFFE0;
+    background: #F08080; 
+}
+
+.butt2 {
+    color: #000000;
+    text-align: center;
+    user-select: none;
+    font-family: Calibri;
+    font-size: 16px;
+    text-transform: uppercase;
+	font-weight: bold;
+ }
+
+/*-----------------------*/
+
+.button {
+	position: absolute;
+    width: 130px;
+	height: 40px;
+    margin: 155px 100px;
+}
+
+.button1 {
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	border: 2px;
+	border-radius: 15px;
+	width: 140px;
+	height: 50px;
+	box-shadow: 0 0 50px 50px #DDA0DD inset;
+	font-family: Comic Sans MS;
+	letter-spacing: 2px;
+	transition: .15s ease;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+
+.button1:hover {
+	box-shadow: 0 0 30px #DDA0DD inset, 0 0 30px 10px #DDA0DD;
+  	color: #8B008B;
+}
+
+span {
+	vertical-align: -10px;
+}

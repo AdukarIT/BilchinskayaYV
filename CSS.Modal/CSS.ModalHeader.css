@@ -1,0 +1,48 @@
+.modal {
+	width: 300px;
+	height: 200px;
+	margin: 200px 472px;
+	background-color: #D2D7D2;
+	border-radius: 15px;
+	text-align: center;
+ }
+
+ .MW {
+	position: absolute;
+ 	background-color: #E5EBE4;
+ 	border-radius: 15px;
+ 	width: 280px;
+ 	height: 180px;
+ 	margin: 10px 10px;
+ }
+
+p {
+	display: block;
+	width: 280px;
+ 	height: 66px;
+ 	font-weight: normal;
+ 	text-align: start;
+ 	margin: 25px 10px;
+ 	color: #82947E;
+}
+button:hover {
+	color: #75B067;
+}
+button:focus {
+    outline: none;
+}
+ .close {
+	position: absolute;
+	background-color: #D2D7D2;
+	width: 70px;
+	height: 30px;
+	border-radius: 20px;
+	border-style: ridge;
+	margin-top: -40px;
+	margin-left: 50px;
+}
+body {
+    background: url(img/fon.jpg) no-repeat center fixed;
+    font-family: Verdana;
+}
+
