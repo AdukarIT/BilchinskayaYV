@@ -46,3 +46,8 @@
 
 ## CSS. Позиционирование
 [Индикатор загрузки](https://jsbin.com/gekuhib/edit?html,css,output)
+[Modal Header](https://jsbin.com/mikaviyipu/edit?html,css,output)
+
+## CSS. Float. Псевдоклассы и составные селекторы
+[Button](https://jsbin.com/jobexunamu/edit?html,css,output)
+
