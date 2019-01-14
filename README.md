@@ -8,20 +8,14 @@
 
 [Сервис ремонта мобильных телефонов2](https://jsbin.com/risuceyaji/edit?html,output)
 
-[GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.PhoneService)
-
 [Магазин оргтехники1](https://jsbin.com/zoqazaguzu/edit?html,output)
 
 [Магазин оргтехники2](https://jsbin.com/daxekomuho/edit?html,output)
-
-[GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.Store)
 
 ## Формы. Ссылочные протоколы
 [Форма для заказа пиццы](https://jsbin.com/xeyizejago/edit?html,output)
 
 [Форма отзыва на товар](https://jsbin.com/kowofogeme/edit?html,output)
-
-[GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.Forms)
 
 ## Продвинутый HTML
 [Сайт руководств по изучению иностранных языков1](https://jsbin.com/hakumifuli/edit?html,output)
@@ -34,15 +28,11 @@
 
 [Сайт руководств по изучению иностранных языков5](https://jsbin.com/qugitativa/edit?html,output)
 
-[GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.Languages)
-
 [Instagram1](https://jsbin.com/wuzatovohe/edit?html,output)
 
 [Instagram2](https://jsbin.com/wisicibiyu/edit?html,output)
 
 [Instagram3](https://jsbin.com/jemugujivo/edit?html,output)
-
-[GH](https://github.com/AdukarIT/BilchinskayaYV/tree/master/HTML.Instagram)
 
 ## CSS. Позиционирование
 [Индикатор загрузки](https://jsbin.com/gekuhib/edit?html,css,output)
