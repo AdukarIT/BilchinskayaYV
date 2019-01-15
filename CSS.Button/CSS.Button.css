@@ -1,19 +1,16 @@
 .center {
-	position: absolute;
-	width: 300px;
-	height: 200px;
-	margin: 10px 100px;
-}
-
-.butt1 {
-	color: #DB7093 ;
-	font-family: Arial;
-	text-transform: uppercase;
-	font-weight: bold;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  margin: 10px 100px;
 }
 
 .butt {
-	display: block;
+    color: #DB7093 ;
+	font-family: Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+    display: block;
 	border: 3px solid #C71585 ;
 	font-size: 16px;
 	text-align: center;
@@ -24,8 +21,7 @@
 	line-height: 20px;
 	position: relative;
 	overflow: hidden;
-	letter-spacing: 2px;
-
+	letter-spacing: 2px; 
 }
 
 .butt::before {
@@ -38,7 +34,6 @@
 	opacity: .3;
 	transition: .1s;
 }
-
 
 .butt:hover::before,
 .butt:hover::after {
@@ -103,11 +98,10 @@
 	box-shadow: 0 0 50px 50px #DDA0DD inset;
 	font-family: Comic Sans MS;
 	letter-spacing: 2px;
-	transition: .15s ease;
+	transition: .15s;
 	font-weight: bold;
 	color: #FFFFFF;
 }
-
 
 .button1:hover {
 	box-shadow: 0 0 30px #DDA0DD inset, 0 0 30px 10px #DDA0DD;
