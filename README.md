@@ -42,3 +42,5 @@
 ## CSS. Float. Псевдоклассы и составные селекторы
 [Button](https://jsbin.com/baqaqakiku/edit?html,css,output)
 
+[Tooltip](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
+
