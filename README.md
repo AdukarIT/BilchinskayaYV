@@ -45,5 +45,5 @@
 [Tooltip](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
 
 ## CSS.Свойства видимости. Именование классов. БЭМ
-[FormRegistration](https://codepen.io/yuliabilchinskaya/pen/NeZgxp)
+[FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YdoQgW)
 
