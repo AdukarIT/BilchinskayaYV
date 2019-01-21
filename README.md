@@ -47,3 +47,5 @@
 ## CSS.Свойства видимости. Именование классов. БЭМ
 [FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YdoQgW)
 
+## CSS.Основы CSS. Позиционирование
+[CSS.OnlineStore](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.OnlineStore)
