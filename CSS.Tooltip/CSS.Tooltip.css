@@ -1,0 +1,60 @@
+form {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 20% 20%;
+}
+
+label {
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+input {
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 7px;
+  border: 2px solid #696969;
+  outline: none;
+}
+
+.help {
+	position: relative;
+	background: #D3D3D3;
+	padding: 5px 12px;
+	border-radius: 50%;
+	font-size: 16px;
+}
+
+.help::before, .help::after {
+	position: absolute;
+	left: 50%;
+	opacity: 0;
+	z-index: -100%;
+}
+
+.help:hover::before
+.help:focus::before
+.help:hover::after
+.help:focus::after {
+ 	opacity: 1;
+ 	z-index: 100;
+}
+
+.help::before {
+	content: "";
+	transition: opacity 3s easy, top 1s easy;
+}
+
+
+.help::after {
+	background: #696969;
+	border-radius: 0,25em;
+	bottom: 178%;
+	color: red;
+	content: attr(data-help);
+	margin-left: -8.75em;
+	padding: 1em;
+	width: 17.5em;
+	transition: opasity 0.6s easy;
+}

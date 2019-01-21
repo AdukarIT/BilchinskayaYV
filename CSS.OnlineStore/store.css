@@ -1,0 +1,173 @@
+
+header {
+	position: relative;
+	height: 40px;
+	margin: -50px 50px -3px;
+	font-size: 50px;
+	min-height: 120px;
+	background-color: #0E0F1E;
+	color: #EFC260;
+}
+
+address {
+	position: relative;
+	font-size: 15px;
+	min-height: 140px;
+	background-color: #0E0F1E;
+	color: #EFC260;
+}
+
+h1 {
+	margin-left: 12px;
+}
+span {
+	float: left;
+	max-width: 520px;
+	margin: 10px 20px;
+
+}
+body {
+	font-family: Arial, sans-serif;
+	background-color: #FFFFF0;
+}
+
+fieldset {
+	margin: 10px 60px; 
+	width: 90%;
+	height: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.side {
+	margin-top: auto;
+	justify-content: center;
+	list-style: none;
+	display: flex;
+}
+
+.menu a {
+	background: #EFC260;
+	color: #000000;
+	padding: 5px 15px 10px 35px;
+	text-decoration: none;
+	height: 30px;
+	min-width: 260px;
+	display: block;
+	border-bottom: 1px solid #D4C9C9; 
+	box-shadow: 1px 4px 9px -5px #747472;
+	text-transform: uppercase;
+	transition: 1s ease;
+	line-height: 2;
+}
+
+.menu a:hover {
+	background: #D4C9C9;
+	color: #E9E9E7;
+	transition: 0.3s ease;
+}
+
+.point {
+	border: 1px solid #D4C9C9; 
+	text-align: center;
+	position: relative;
+}
+
+.menu__drop {
+	position: absolute;
+	text-align: left;
+	display: none;
+	font-size: 13px;	
+}
+
+.menu li:hover > ul {
+	display: block;
+}
+
+/*------------------------*/
+
+label {
+	width: 50%;
+	padding-right: 14px;
+	margin-top: 10px;
+	float: left;
+	max-width: 80px;
+	clear: left;
+}
+
+input {
+	margin-top: 15px;
+}
+
+p {
+	font-weight: bold;
+}
+#person,
+#number,
+#mail {
+	background-color: #FFFFF0;
+	width: 370px;
+	border-width: 0;
+	border-bottom: 2px solid #AEADAD;
+	outline: none;
+}
+
+#person:hover,
+#number:hover,
+#mail:hover {
+	border-bottom: 3px solid #EFC260;	
+}
+
+
+#order {
+	width: 100%;
+}
+
+#theSubmit {
+	text-align: left;
+	margin-right: 150px;
+}
+
+.submit {
+	background-color: #C0C0C0;
+	color: #000000;
+	border-radius: 15px;
+	border: 2px solid #696969;
+	outline: none;
+}
+
+
+.agree:checked~.theSubmit {
+	display: block;
+}
+
+.map {
+	display: none;
+}
+
+.choice:checked~.map {
+	display: block;
+}
+
+.address {
+	display: none;
+}
+
+.secchoice:checked~.address {
+	display: block;
+}
+
+/***********************/
+
+.picture {
+	float: right;
+	margin: 10px 30px;
+	right: 30px;
+	box-shadow: 3px 4px 4px 0px #000000;
+}
