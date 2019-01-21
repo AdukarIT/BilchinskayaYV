@@ -42,3 +42,8 @@
 ## CSS. Float. Псевдоклассы и составные селекторы
 [Button](https://jsbin.com/baqaqakiku/edit?html,css,output)
 
+[Tooltip](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
+
+## CSS.Свойства видимости. Именование классов. БЭМ
+[FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YdoQgW)
+
