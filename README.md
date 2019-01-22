@@ -42,8 +42,10 @@
 ## CSS. Float. Псевдоклассы и составные селекторы
 [Button](https://jsbin.com/baqaqakiku/edit?html,css,output)
 
-[Tooltip](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
+[Tooltip](https://codepen.io/yuliabilchinskaya/pen/PVoJYJ)
 
 ## CSS.Свойства видимости. Именование классов. БЭМ
-[FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YdoQgW)
+[FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YBzrXN)
 
+## CSS.Основы CSS. Позиционирование
+[CSS.OnlineStore](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.OnlineStore)
