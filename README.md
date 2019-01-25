@@ -52,3 +52,4 @@
 
 ## 10. Изображения. Шрифты и иконки
 [Header](https://codepen.io/yuliabilchinskaya/pen/zevyJp)
+[Checkbox](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
