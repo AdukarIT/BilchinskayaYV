@@ -51,6 +51,10 @@
 [CSS.OnlineStore](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.OnlineStore)
 
 ## 10. Изображения. Шрифты и иконки
-[Header](https://codepen.io/yuliabilchinskaya/pen/zevyJp)
+[Beach](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Beach)
 
-[Checkbox](https://codepen.io/yuliabilchinskaya/pen/jXjrQK)
+[Like](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Like)
+
+[Checkbox](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Checkbox)
+
+[Header](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Header)
