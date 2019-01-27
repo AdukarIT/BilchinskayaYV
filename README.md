@@ -58,3 +58,6 @@
 [Checkbox](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Checkbox)
 
 [Header](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Header)
+
+## 12. Flexbox
+[ADUKAR](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/ADUKAR)
