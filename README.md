@@ -48,7 +48,7 @@
 [FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YBzrXN)
 
 ## CSS.Основы CSS. Позиционирование
-[CSS.OnlineStore](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.OnlineStore)
+[CSS.OnlineStore](https://codepen.io/yuliabilchinskaya/pen/VgmazQ)
 
 ## 10. Изображения. Шрифты и иконки
 [Beach](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Beach)
