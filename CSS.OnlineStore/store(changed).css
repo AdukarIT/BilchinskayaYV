@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #3d3d3d;
+	color: #fff;
+	text-align: center;
+	border-bottom: 2px solid #666;
+}
+
+h1 {
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+}
+
+nav {
+	width: 50%;
+	float: left;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 60px;
+	background-color: #3d3d3d;
+	border-top: 2px solid #666;
+	color: #fff;
+} /*problem*/
+
+/***********/
+
+.menu {
+  	padding: 15px 20px;
+  	list-style: none;
+  	width: 40%;
+}
+
+.menu a {
+	display: block;
+ 	padding: 10px;
+ 	left: 100%;
+ 	background: #3d3d3d;
+ 	color: #fff;
+ 	border-bottom: 1px solid #666;
+ 	transition: 0.5s all;
+ 	text-decoration: none;
+}
+
+.menu-drop {
+	display: none;
+  	position: absolute;
+  	left: 18%; /*-*/
+  	top: 85px;
+  	list-style: none; 	
+}
+
+.menu li:hover .menu-drop {
+  display: block;
+}
+
+.menu a:hover {
+  background-color: #666;
+  padding: 10px 0 10px 20px;
+}
+
+/**********/
+
+.order-form {
+	padding: 10px;
+	float: left;
+}
+
+label, input {
+	text-align: left;
+	display: block;
+	margin: 5px;
+}
+
+input[type='checkbox'] {
+  float: left;
+  width: 20px;
+}
+
+ .gmt {
+	width: 370px;
+	border-width: 0;
+	border-bottom: 2px solid #AEADAD;
+	outline: none;
+}
+
+.ok {
+	padding-left: 20px;
+}
+
+.agree {
+	position: absolute;
+	margin-top: -20px;
+}
+
+#sub:not(:checked) + .submit {
+    pointer-events: none;
+}
+
+.map {
+	display: none;
+}
+
+.choice:checked~.map {
+	display: block;
+}
+
+.courier {
+	display: none;
+}
+
+.secchoice:checked~.courier {
+	display: block;
+}
+
+.time {
+	float: left;
+	width: 50%;
+	padding-left: 20px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="store(changed).css">
+  <title>cart</title>
+</head>
+<body>
+<header>
+ <h1>Eldorado</h1>
+</header>
+<main>
+<nav class="box">
+ <ul class="menu">
+  <li  class="point"><a href="#">Бытовая техника</a>
+   <ul class="menu-drop">
+    <li><a href="#">Стиральные машины</a></li>
+     <li><a href="#">Пылесосы</a></li>
+     <li><a href="#">Швейные, вышивальные машины</a></li>
+     <li><a href="#">Утюги</a></li>
+     <li><a href="#">Электровеники</a></li>
+     <li><a href="#">Сушилки для обуви</a></li>
+   </ul>
+     </li>
+     <li class="point"><a href="#">Техника для кухни</a>
+   <ul class="menu-drop">
+     <li><a href="#">Холодильники</a></li>
+     <li><a href="#">Кухонные плиты</a></li>
+     <li><a href="#">Морозильники</a></li>
+     <li><a href="#">Настольные плиты</a></li>
+     <li><a href="#">Ростеры, мини-печи</a></li>
+     <li><a href="#">Вытяжки</a></li>
+     <li><a href="#">Микроволновые печи</a></li>
+   </ul>
+     </li>
+     <li class="point"><a href="#">Компьютерная техника</a>
+   <ul class="menu-drop">
+     <li><a href="#">Ноутбуки</a></li>
+     <li><a href="#">Планшеты</a></li>
+     <li><a href="#">Компьютеры, моноблоки</a></li>
+     <li><a href="#">Игровые приставки</a></li>
+     <li><a href="#">Серверное оборудование</a></li>
+   </ul>
+     </li>
+     <li class="point"><a href="#">Корзина</a>
+  </li>
+ </ul>
+</nav>
+
+<form class="order-form">
+ <label>ФИО:
+  <input class="gmt" type="text" name="person" placeholder="ФИО">
+ </label>
+ <label>Номер телефона:
+  <input class="gmt" type="text" name="phone" placeholder="Ваш номер телефона">
+ </label>
+ <label>E-mail:
+  <input class="gmt" type="text" name="email" placeholder="456426@email.com">
+ </label>
+ <p>Выберите способ доставки:</p>
+ <label>
+ 	<input class="choice" type="checkbox" name="deliver">Самовывоз со склада
+  <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4697.866510640567!2d27.510983282547624!3d53.93292962830398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc57328e2f49f%3A0x8d24f866fb7a2624!2z0L_RgC3Rgi4g0J_QvtCx0LXQtNC40YLQtdC70LXQuSAyMCwg0JzQuNC90YHQug!5e0!3m2!1sru!2sby!4v1547995211478" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></label>
+ <label>
+ 	<input class="secchoice" type="checkbox" name="deliver">Курьером по Минску
+ 	<div class="courier"><b>Адрес доставки:</b></div>
+     <input class="courier" type="text" placeholder="Адрес доставки" name="deliver">
+ </label>
+ <label>
+ 	<textarea name="comment" rows="5" cols="50" placeholder="Введите Ваш комментарий"></textarea>
+ </label>
+<div class="oksub">
+	<label class="ok" for="sub">Я прочитал и согласен(а) <a href="#" >с условиями доставки</a></label>
+	<input type="checkbox" class="agree" id="sub" required> 
+  	<input class="submit" type="submit" value="Подтвердить заказ">
+</div>
+</form>
+</main>
+<footer>
+<div class="time">
+   <p>График работы Интернет-магазина — круглосуточно.</p>
+   <p>Юридический адрес:<br> Республика Беларусь, город Минск, пр-т. Победителей, дом 20</p>
+</div>
+<div class="call>">
+   <p>Телефон: +375333920349</p><br>
+   <p>Skype: <a href="#">Eldorado</a></p>
+  </div>	
+</footer>
+</body>
+</html>
+
