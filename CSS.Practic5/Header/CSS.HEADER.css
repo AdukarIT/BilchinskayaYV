@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-header {
+.header {
 	height: 100px;
 	background: #eaddcc;
   	border-bottom: 4px solid #dfc99a;
@@ -27,15 +27,15 @@ li, ul {
 	display: inline-block;
 }
 
-.logo {
+.header__logo {
 	width: 15%;
 }
 
-.search-form {
+.header__form  {
 	width: 25%;
 }
 
- .menu, a {
+ .header__menu, a {
  	text-align: center;
 	width: 30%;
 	text-decoration: none;
@@ -46,7 +46,7 @@ li, ul {
 	letter-spacing: 2px;
 }
 
-.contact {
+.header__contact {
 	width: 25%;
 	text-align: center;
 }

@@ -5,6 +5,7 @@
        url("font/fontello.woff?38118645"),
        url("font/fontello.ttf?38118645"),
        url("font/fontello.svg?38118645#fontello");
+       font-family: "fontello";
 }
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
