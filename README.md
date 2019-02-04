@@ -61,3 +61,5 @@
 
 ## 12. Flexbox
 [ADUKAR](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/ADUKAR)
+
+[VK](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/VK)
