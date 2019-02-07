@@ -64,4 +64,4 @@
 
 [VK](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/VK)
 
-[Tile] (https://codepen.io/yuliabilchinskaya/pen/BMmxbv)
+[Tile](https://codepen.io/yuliabilchinskaya/pen/BMmxbv)
