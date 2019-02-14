@@ -1,0 +1,41 @@
+.conteiner {
+    height: 500px;
+    width: 1000px;
+    border: 1px solid green;
+    background-size: 100px;
+    position: relative;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.check-ball {
+    display: none;
+}
+
+.check-ball:checked ~ .ball-bounce {
+    position: absolute;
+    animation: bounce 5s linear infinite, 
+    bounce-Left 5s linear infinite alternate; 
+    transition-timing-function: ease-in;
+}
+
+@keyframes bounce {
+  0% { top: 0; left: 0;}
+  20% { top: 400px; left: 100px}
+  30% { top: 0px; left: 200px}
+  40% { top: 400px; left: 300px;}
+  50% { top: 0px; left: 400px; }
+  60% { top: 400px; left: 500px; }
+  70% { top: 0px; left: 600px; }
+  80% { top: 400px; left: 700px; }
+  90% { top: 0px; left: 800px; }
+  100% { top: 400px; left: 900px  }
+}
+
+@keyframes bounce-Left {
+  from {left: 0px;}
+  to   {left: 900px;}
+} 
