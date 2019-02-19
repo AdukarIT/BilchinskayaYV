@@ -31,8 +31,7 @@ img {
   60% { top: 400px; left: 500px; }
   70% { top: 0px; left: 600px; }
   80% { top: 400px; left: 700px; }
-  90% { top: 0px; left: 800px; }
-  100% { top: 400px; left: 900px  }
+  100% { top: 0px; left: 800px; }
 }
 
 @keyframes bounce-Left {

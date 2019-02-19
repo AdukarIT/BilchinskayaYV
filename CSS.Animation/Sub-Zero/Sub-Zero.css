@@ -1,0 +1,16 @@
+.sub-zero {
+  background: url("img/SZ.jpg") no-repeat;
+  width: 65px;
+  height: 140px;
+  margin: 0 auto;
+}
+
+ .sub-zero:hover {
+  animation: action 0.4s infinite steps(6) alternate;
+}
+
+@keyframes action {
+  0% { 
+  background-position: -397px; 
+  }
+}

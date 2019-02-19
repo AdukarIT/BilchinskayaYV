@@ -117,6 +117,14 @@ header {
 	color: #939393;
 }
 
+.group > a:first-child:hover {
+	border-bottom: 1px solid #285473;
+}
+
+.group > a:last-child:hover {
+	border-bottom: 1px solid #939393;
+}
+
  .photo-post {
 	display: flex;
 	flex-direction: row;
