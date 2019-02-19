@@ -65,3 +65,10 @@
 [VK](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/VK)
 
 [Tile](https://codepen.io/yuliabilchinskaya/pen/BMmxbv)
+
+## 14. Эффекты. Анимация
+[Прыгающий мяч](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Ball)
+
+[Вентилятор](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Fan)
+
+[Спрайты](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Sub-Zero)
