@@ -75,3 +75,5 @@
 
 ## 15. Итоговая работа по вёрстке
 [Andersson-wise](https://YuliaBilchinskaya.github.io/Andersson-wise/HomePage.html)
+
+[Andersson-wise Project](https://github.com/YuliaBilchinskaya/YuliaBilchinskaya.github.io/tree/master/Andersson-wise)
