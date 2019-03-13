@@ -77,3 +77,6 @@
 [Andersson-wise](https://YuliaBilchinskaya.github.io/Andersson-wise/HomePage.html)
 
 [Andersson-wise Project](https://github.com/YuliaBilchinskaya/YuliaBilchinskaya.github.io/tree/master/Andersson-wise)
+
+## 17. Node.js + npm + sass
+[DesignClub](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.DesignClub)
