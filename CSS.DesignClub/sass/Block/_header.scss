@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+.middle {
+	@include middle-flex();
+	background-color: $Back-Fon;
+	height: 800px;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+    border-radius: 2em;
+    border: 1px solid #e0e0e0;
+    box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+	.DClogo img, .first-heading {width: 21.5em;}
+	.second-heading {width: 320px;}
+	.text {width: 400px;}
+	.button {
+		@include button();
+		&:hover {
+    		transition: ease-out 1s;
+    		background-color: $Text-Color;
+    	}
+	}
+	.social-networks > div {
+		display: inline-block;
+		letter-spacing: 35px;
+		opacity: 1;
+	&:hover {
+    	transition: ease-out 0.5s;
+     	opacity: 0.6;
+       	transform: scale(1.2);
+       	padding-right: .5em;
+       	font-size: .6em;
+	}
+	}
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: $Back-Fon;
+	background: linear-gradient(to bottom left, #e8e8eb, #f5f6f6);
+    border-radius: 2em;
+    border: 1px solid #e0e0e0;
+    box-shadow: -7px 7px 25px 0px rgba(0,0,0,0.37);
+}
+.middle {
+	@include middle-flex();
+	.DClogo img, .first-heading {width: 21.5em;}
+	.second-heading {width: 320px;}
+	.text {width: 400px;}
+	.button {
+		@include button();
+    	&:hover {
+    		transition: ease-out 1s;
+    		background-color: $Text-Color;
+    	}
+	}
+	.social-networks > div {
+		display: inline-block;
+		letter-spacing: 35px;
+		opacity: 1;
+		cursor: pointer;
+	&:hover {
+    	transition: ease-out 0.5s;
+     	opacity: 0.6;
+       	transform: scale(1.2);
+       	padding-right: .5em;
+       	font-size: .6em;
+	}
+	}
+}
+}
+
+@media screen and (max-width: 1000px) {
+  .social-networks > div {
+	&:hover {
+    	transition: ease-out 0.5s;
+     	opacity: 0.6;
+     	margin-top: .7em;
+       	transform: scale(1.2);
+	}
+}
+}
