@@ -72,3 +72,8 @@
 [Вентилятор](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Fan)
 
 [Спрайты](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Sub-Zero)
+
+## 15. Итоговая работа по вёрстке
+[Andersson-wise](https://YuliaBilchinskaya.github.io/Andersson-wise/HomePage.html)
+
+[Andersson-wise Project](https://github.com/YuliaBilchinskaya/YuliaBilchinskaya.github.io/tree/master/Andersson-wise)
