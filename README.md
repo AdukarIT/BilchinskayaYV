@@ -50,7 +50,7 @@
 ## CSS.Основы CSS. Позиционирование
 [CSS.OnlineStore](https://codepen.io/yuliabilchinskaya/pen/VgmazQ)
 
-## 10. Изображения. Шрифты и иконки
+## Изображения. Шрифты и иконки
 [Beach](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Beach)
 
 [Like](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Like)
@@ -59,27 +59,27 @@
 
 [Header](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Practic5/Header)
 
-## 12. Flexbox
+## Flexbox
 [ADUKAR](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/ADUKAR)
 
 [VK](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Flexbox/VK)
 
 [Tile](https://codepen.io/yuliabilchinskaya/pen/BMmxbv)
 
-## 14. Эффекты. Анимация
+## Эффекты. Анимация
 [Прыгающий мяч](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Ball)
 
 [Вентилятор](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Fan)
 
 [Спрайты](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.Animation/Sub-Zero)
 
-## 15. Итоговая работа по вёрстке
+## Итоговая работа по вёрстке
 [Andersson-wise](https://YuliaBilchinskaya.github.io/Andersson-wise/HomePage.html)
 
 [Andersson-wise Project](https://github.com/YuliaBilchinskaya/YuliaBilchinskaya.github.io/tree/master/Andersson-wise)
 
-## 17. Node.js + npm + sass
+## Node.js + npm + sass
 [DesignClub](https://github.com/AdukarIT/BilchinskayaYV/tree/master/CSS.DesignClub)
 
-## 20. Операторы. Циклы
+## Операторы. Циклы
 [JS. Операторы. Циклы](https://github.com/AdukarIT/BilchinskayaYV/tree/master/JS.%20%D0%9E%D0%BF%D0%B5%D1%80%D0%B0%D1%82%D0%BE%D1%80%D1%8B.%20%D0%A6%D0%B8%D0%BA%D0%BB%D1%8B)
