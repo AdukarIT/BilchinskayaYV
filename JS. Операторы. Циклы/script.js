@@ -19,19 +19,19 @@ alert("Задача № 1(2). Номер подъезда.")
 console.clear();
 
 let num1 = prompt("Введите номер квартиры");
-if (num1 >= 1 && num1 <= 20) {
+ if (num1 >= 1 && num1 <= 20) {
 	console.log(1);
 }
-if (num1 > 20 && num1 <= 40) {
+else if (num1 > 20 && num1 <= 40) {
 	console.log(2);
 }
-if (num1 > 40 && num1 <= 60) {
+else if (num1 > 40 && num1 <= 60) {
 	console.log(3);
 }
-if (num1 > 60 && num1 <= 80) {
+else if (num1 > 60 && num1 <= 80) {
 	console.log(4);
 }
-if (num1 > 80 && num1 <= 100) {
+else if (num1 > 80 && num1 <= 100) {
 	console.log(5);
 }
 
@@ -127,3 +127,14 @@ let b1 = "# # # # \n";
     		console.log(b1);
   		}
 	}
+
+
+alert("Задача № 7(2). Шахматная доска.")
+console.clear();
+
+	for (let i = 0; i < 4; i++) {
+  		console.log( " # # # # \n");
+  	for (let j = 3; j < 4; j++) {
+    	console.log("# # # # \n");
+  }
+}
