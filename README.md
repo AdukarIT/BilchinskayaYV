@@ -34,20 +34,20 @@
 
 [Instagram3](https://jsbin.com/jemugujivo/edit?html,output)
 
-## CSS. Позиционирование
+## Позиционирование
 [Индикатор загрузки](https://jsbin.com/gekuhib/edit?html,css,output)
 
 [Modal Header](https://jsbin.com/mikaviyipu/edit?html,css,output)
 
-## CSS. Float. Псевдоклассы и составные селекторы
+## Float. Псевдоклассы и составные селекторы
 [Button](https://jsbin.com/baqaqakiku/edit?html,css,output)
 
 [Tooltip](https://codepen.io/yuliabilchinskaya/pen/PVoJYJ)
 
-## CSS.Свойства видимости. Именование классов. БЭМ
+## Свойства видимости. Именование классов. БЭМ
 [FormRegistration](https://codepen.io/yuliabilchinskaya/pen/YBzrXN)
 
-## CSS.Основы CSS. Позиционирование
+## Основы CSS. Позиционирование
 [CSS.OnlineStore](https://codepen.io/yuliabilchinskaya/pen/VgmazQ)
 
 ## Изображения. Шрифты и иконки
