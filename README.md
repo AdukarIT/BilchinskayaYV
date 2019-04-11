@@ -92,3 +92,6 @@
 
 ## Массивы
 [JS. Массивы](https://github.com/AdukarIT/BilchinskayaYV/tree/master/JS.%20%D0%9C%D0%B0%D1%81%D1%81%D0%B8%D0%B2%D1%8B)
+
+##Объекты
+[JS. Объекты](https://github.com/AdukarIT/BilchinskayaYV/blob/master/JS.%20%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B/script.js)
