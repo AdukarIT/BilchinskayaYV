@@ -39,30 +39,24 @@ function checkPalindrome(string) {
 	}
 }
 console.log(checkPalindrome(string));
-/*
+
 //4
 function findDuplicateSymbols(str) {
-  let objectSymbols = {};
-  let maxValue = 0;
-  let DuplicateSymbols = "";
-    for (let symbol of str) {
-        if (objectSymbols.hasOwnProperty(symbol)) {
-            objectSymbols[symbol]++
-        } else {
-            objectSymbols[symbol] = 1
-        }
-    }
-    for (let symbol in objectSymbols) {
-        if (objectSymbols[symbol] > maxValue) {
-            maxValue = objectSymbols[symbol]
-            DuplicateSymbols = symbol
-        }
-    }
-    return DuplicateSymbols;
-    }
+    let out=[];
+    let counts={};
+  		for (let i = 0; i < str.length; i++) {
+			if (counts[str[i]] >= 1) {
+				counts[str[i]]++
+			} else {
+				counts[str[i]] = 1
+			} if (counts[str[i]] === 2) {
+      			out.push(str[i]);
+    		}
+  		}
+  			return out;
+}
+console.log(findDuplicateSymbols("kkgltl"));
 
-console.log(findDuplicateSymbols("эта функция нормально не работает"));
-*/
 //5
 function replaceString(str, search, replace) {
 	return str.split(search).join(replace); 
@@ -92,10 +86,67 @@ function changeSymbols(str) {
 }
 console.log(changeSymbols("я учусь программированию"));
 
-
 //8
 function getActualDay(week) {
   let daysArr = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'];
   	return daysArr[week.getDay()];
 } 
 console.log(getActualDay(week = new Date())); 
+
+//9
+let date = prompt("Введите дату");
+function getWeek(date) {
+	date = date.split("-").join("");
+	let year = date.slice(4, 10),
+		month = date.slice(2, 4),
+		day = date.slice(0, 2),
+		result = new Date(year, month - 1, day);
+			return getActualDay(result);
+}
+		console.log(getWeek(date));
+
+//10
+
+let birthday = prompt("Введите дату ДР");
+function getBirthDate() {
+	let today = new Date();
+	birthday = birthday.split("-").join("");
+	let year = birthday.slice(4, 10),
+		month = birthday.slice(2, 4),
+		day = birthday.slice(0, 2),
+		result = new Date(year, month - 1, day);
+		dayBeforeBirthday = (result.getTime() - today.getTime()) / (3600 * 24 * 1000);
+		dayBeforeBirthday = Math.round(dayBeforeBirthday);
+		console.log(dayBeforeBirthday);
+}
+getBirthDate();
+
+//10
+
+let arr = [];
+function getRandomArray(len, min, max) {
+	for (let i = 0; i < len; i++) { 
+    	arr[i] = Math.round(Math.random() * (max - min ) + min);
+ 	}
+    	return arr;
+}
+function getSquare(number) {
+	if(Math.sqrt(number) === Math.round(Math.sqrt(number))) {
+		return Math.sqrt(number)
+	}
+		throw new Error(number + " -" + " не являться квадратом целого числа");
+} 
+function getError() {
+	for (let i = 0; i < arr.length; i++) {
+		try {
+			console.log(getSquare(arr[i]));
+		} catch(e) {
+			console.error("Произошла ошибка: " + e);
+		}
+	}
+}
+console.log(arr);
+getError(getRandomArray(5, 20, 5));
+
+
+
