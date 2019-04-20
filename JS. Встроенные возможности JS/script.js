@@ -119,7 +119,7 @@ function getBirthDateAndAnniversaryDate() {
 		result = new Date(year, month - 1, day);
 
 	let dayBeforeBirthday = (today.getTime()-result.getTime()) / (3600 * 24 * 1000);
-	let dayBeforeBirthday = Math.round(dayBeforeBirthday);
+	    dayBeforeBirthday = Math.round(dayBeforeBirthday);
 		console.log(dayBeforeBirthday); // дней до др
 
     let anniversaryDate = dayBeforeBirthday + (1000 - dayBeforeBirthday % 1000);
