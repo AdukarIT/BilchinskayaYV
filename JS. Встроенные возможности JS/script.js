@@ -1,3 +1,4 @@
+
 //1
 let arr = [];
 function getRandomArray(len, min, max) {
@@ -108,20 +109,28 @@ function getWeek(date) {
 //10
 
 let birthday = prompt("Введите дату ДР");
-function getBirthDate() {
+
+function getBirthDateAndAnniversaryDate() {
 	let today = new Date();
 	birthday = birthday.split("-").join("");
 	let year = birthday.slice(4, 10),
 		month = birthday.slice(2, 4),
 		day = birthday.slice(0, 2),
 		result = new Date(year, month - 1, day);
-		dayBeforeBirthday = (result.getTime() - today.getTime()) / (3600 * 24 * 1000);
-		dayBeforeBirthday = Math.round(dayBeforeBirthday);
-		console.log(dayBeforeBirthday);
-}
-getBirthDate();
 
-//10
+	dayBeforeBirthday = (today.getTime()-result.getTime()) / (3600 * 24 * 1000);
+	dayBeforeBirthday = Math.round(dayBeforeBirthday);
+		console.log(dayBeforeBirthday); // дней до др
+
+    let anniversaryDate = dayBeforeBirthday + (1000 - dayBeforeBirthday % 1000);
+    let	dayBeforeAnniversary = 1000 - dayBeforeBirthday % 1000;
+    	console.log(anniversaryDate); // ближайший юбилей
+    	console.log(dayBeforeAnniversary); // дней до юбилея
+}
+
+getBirthDateAndAnniversaryDate();
+
+//11
 
 let arr = [];
 function getRandomArray(len, min, max) {
@@ -147,6 +156,3 @@ function getError() {
 }
 console.log(arr);
 getError(getRandomArray(5, 20, 5));
-
-
-
