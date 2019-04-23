@@ -1,4 +1,4 @@
-//1
+/*//1
 function counterFactory(start, step) {
 		return function tictoc() {
 			start += step;
@@ -21,7 +21,7 @@ function take(tictoc, x) {
 }
 
 console.log(take(tictoc, 10));
-
+*/
 //3
 let str = "Разбейте текст этой задачи на отдельные слова, удаляя по пути точки и запятые, а полученные слова сложите в массив. Напишите функцию, которая возвращает массив из тех же слов, но развёрнутых задом наперёд, причём массив должен быть отсортирован по количеству букв в слове. Напишите другую функцию, которая считает общее количество букв с во всех элементах массива."
 let arrStr = str.split(",").join("").split(".").join("").split(" ");
@@ -39,7 +39,7 @@ function countLet(arrStr) {
     return arrStr.join("").length;
 }
 console.log(countLet(arrStr));
-
+/*
 //4
 let obj = { 
 greeting: "Привет" 
@@ -49,4 +49,4 @@ alert(this.greeting + ', ' + surname + ' ' + name);
 }
 func.call(obj, "Иванов", "Иван"); 
 func.apply(obj, ["Иванов", "Иван"]);
-
+*/
