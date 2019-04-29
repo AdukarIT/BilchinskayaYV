@@ -43,3 +43,17 @@ function wrapInParagraph(el) {
   	console.log(home);
 }
 wrapInParagraph();
+
+//7
+
+function normalizeClassNames() {
+    let str = document.querySelectorAll("*");
+    	for(let i = 0; i < str.length;i++) {
+    		 str[i].className = str[i].className.split("-").map(function(item, index){
+    			return (index != 0) 
+    			? item[0].charAt(0).toLocaleUpperCase() + item.substr(1)
+    			: item.charAt(0).toLowerCase() + item.substr(1);   			 
+        	}).join("");
+    	}
+}
+	console.log(normalizeClassNames(document));
