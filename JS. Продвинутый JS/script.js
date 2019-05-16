@@ -3,6 +3,8 @@ let arrStr = str.split("");
 console.log(arrStr);
 
 //1
+//Напишите функцию, которая принимает в качестве параметра номер символа в таблице Unicode. 
+//Подсчитайте количество таких символов во всех элементах массива, как в задаче 3 из первой части практики.
 
 function getSymbol(cod) {
   let sum = 0;
@@ -17,6 +19,7 @@ function getSymbol(cod) {
 let a = getSymbol("1088"); //р
 
 //2
+//Напишите функцию, которая будет возвращать частичную функцию от функции из задачи 1, фиксируя искомый символ. 
 
 function getTheSame(arrStr){
   let sum = 0;
@@ -35,6 +38,7 @@ let countOfLetter = getTheSame(arrStr);
 console.log(countOfLetter("1088")); //р
 
 //3
+//Отфильтруйте массив городов так, чтобы в нём остались только города из штата Калифорния, которые с 2000 по 2013 выросли в населении.
 
 function getCaliforniaStates(state) {
   let arrCities = data.filter(function(item) {
@@ -45,7 +49,7 @@ function getCaliforniaStates(state) {
 let populationGrowth = getCaliforniaStates("California");
 
 //4
-
+//Подсчитайте, сколько миллионов населения живёт во всех городах на широте от 25 до 30 градусов.
 function getPopulation(max, min) {
   let arrNumber = data.reduce(function(currentValue, item) {
     if(item["latitude"] > min && item["latitude"] < max) {
@@ -60,6 +64,7 @@ function getPopulation(max, min) {
 let number = getPopulation(30, 25);
 
 //5
+//Создайте массив только из тех городов, которые начинаются на букву D, при этом отсортируйте элементы этого массива по названию города.
 
 function getCitiesD() {
   let getCities = data.filter(function(cities) {
@@ -76,6 +81,10 @@ function getCitiesD() {
 console.log(getCitiesD());
 
 //6 ???????????
+//Преобразуйте представленный массив "Города" в объект "Штаты":
+//1. для каждого штата – отдельное свойство объекта (ключ = название штата);
+//2. значение каждого свойства – массив городов;
+//3. каждый элемент массива – название города, население и место в общем рейтинге (rank).
 
 function getNewObj() {
   let states = {};
