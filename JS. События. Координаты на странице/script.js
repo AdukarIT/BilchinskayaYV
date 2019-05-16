@@ -1,4 +1,4 @@
-//1
+//1. Дан инпут. Дана кнопка. По нажатию на кнопку клонируйте этот инпут.
 
 let parent = document.getElementById("parent");
 document.getElementById("button").addEventListener("click", function (e) {
@@ -7,7 +7,10 @@ document.getElementById("button").addEventListener("click", function (e) {
 	parent.appendChild(clone);
 });
 
-//2
+//2. Добавьте на страницу таблицу в стандартном оформлении. 
+//При клике на таблице добавьте ей класс bordered, 
+//при втором клике удалите класс bordered и добавьте класс striped, 
+//при третьем клике удалите класс striped и добавьте класс highlight.
 
 let table = document.createElement("table"), tr;
 function createTable() {
@@ -36,7 +39,10 @@ table.addEventListener("click", function(e) {
 	}
 });
 
-//3
+//3. Модифицируйте задачу 2. Добавьте три radiobutton. 
+//При выборе первого включается класс bordered, 
+//при выборе второго отключается bordered и включается striped, 
+//при выборе третьего включается highlight и отключается striped.
 
 let form = document.getElementById("container").appendChild(document.createElement("form"));
 form.style.margin = "15px";
@@ -57,7 +63,8 @@ form.addEventListener("click", function(e) {
 	}
 });
 
-//4
+//4. Создайте кнопку. При нажатии на кнопку с помощью элемента this выведите содержащийся в тегах кнопки текст. 
+//Вывод осуществлять с помощью alert. Создайте кнопку отключающую события на предыдущей кнопке.
 
 let textButton = document.body.appendChild(document.createElement("button"));
 let button2 = document.body.appendChild(document.createElement("button"));
@@ -72,7 +79,7 @@ button2.onclick = function() {
 	textButton.removeEventListener("click", text) 
 };
 
- //5
+ //5. Создайте элементы div, p, button, a. Используя target по клику выводите информацию о типе элемента по которому произошел клик.
 
 let form2 = document.body.appendChild(document.createElement("form"));
 form2.innerHTML = "form";
@@ -98,7 +105,9 @@ form2.addEventListener("click", function(e) {
   alert(e.target.tagName);
 });
 
-//6
+//6. Добавьте в html код изображение. Добавьте скрипт, который будет выполнять следующие действия: 
+//при наведении мыши на картинку, изображение будет заменяться другим изображением. 
+//При выходе мыши за пределы изображения, будет восстанавливаться первоначальное изображение.
 
 let img = document.body.appendChild(document.createElement("img"));
 img.src = "img/6.jpg";
@@ -111,6 +120,9 @@ img.addEventListener("mouseout", function() {
 });
 
 //7 (есть вопросик)
+//Используя событие onclick реализовать аналог fancybox.
+//При клике – картинка увеличивается в размерах и всплывает над контентом. 
+//Остальной контент затемняется. Для «всплывания» изображения используйте position:absolute.
 
 let picture = document.body.appendChild(document.createElement("img"));
 picture.src = "img/2.jpg";
